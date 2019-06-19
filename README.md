@@ -1,13 +1,13 @@
 # KafkaMultiConsumer
 Consume from multiple topics all at once.
 
-This application will continuously listne to the kafka topics specified. 
+This application will continuously listen to the kafka topics specified. 
 
 Be sure to update the Constants class with your Kafka Setup information.
 
 Default is three topics, however you can add more. 
 
-Update the Constants class with your topics, and also update the Listener inside the KafkaConsumer class
+If you add additional topics, be sure to update the Constants class with your topics, and also update the Listener inside the KafkaConsumer class
   @KafkaListener(topics = { Constants.KAFKA_TOPIC_01, Constants.KAFKA_TOPIC_02, Constants.KAFKA_TOPIC_03 })
   
   Add your topics inside the curly brackets (seperated by commas).
