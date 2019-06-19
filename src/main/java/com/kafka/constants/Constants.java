@@ -33,7 +33,7 @@ public class Constants {
 
 	public final static String KEY_PASSWORD = "";
 
-	public final static String KAFKA_PROTOCOL = "";
+	public final static String KAFKA_PROTOCOL = "SSL";
 
-	public final static String SSL_PROTOCOL = "";
+	public final static String SSL_PROTOCOL = "SSL";
 }
